@@ -33,7 +33,8 @@ Fix bugs, add new features such as advance search, and better visual appeasement
 » https://www.wikipedia.org/ <br>
 » https://bestretrotech.com/wp-content/uploads/2020/10/retro-games.jpg <br>
 » https://th.bing.com/th/id/OIP.aiBQppZT_rptDZSTXz9DzAHaF5?pid=ImgDet&rs=1 <br>
-» https://cdn.iconscout.com/icon/premium/png-512-thumb/drowning-man-1640778-1392662.png <br>
+» https://cdn.iconscout.com/icon/premium/png-512-thumb/drowning-man-1640778-1392662.png 
+
 
 👉 Live Demo: 
 
