@@ -10,7 +10,9 @@ import java.util.List;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
+@CrossOrigin(origins = "*")
 @RestController
 public class ProductController {
 	
@@ -32,11 +34,28 @@ public class ProductController {
 		return db;
 	}
 	
-	//http://localhost:8080
+	//http://localhost:8080/product
 	@GetMapping("/product")
 	public Product getProduct() {
 		return new Product("Game", "Publish year", "Category", "Sub-Category", "Multiplayer?", "Rating", "Image-Url", "Description");
 	}
+	
+	@GetMapping("/product/all")
+	public List<String[]> getAllProducts(@RequestParam(name = "start") int start, @RequestParam(name = "end") int end) {
+		List<String[]> db = loadDB();
+		List<String[]> games = new ArrayList<>();
+
+		if (end >= db.size()) {
+			end = db.size();
+		}
+
+		for (int i = start; i < end; i++) {
+			games.add(db.get(i));
+		}
+
+		return db;
+	}
+
 	
 	//http://localhost:8080/product/query?p=test
 	@GetMapping("/product/query")
