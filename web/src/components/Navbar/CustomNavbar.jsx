@@ -12,6 +12,7 @@ export const CustomNavbar = () => {
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/catagories">Catagories</Nav.Link>
                         <Nav.Link href="/products">Products</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

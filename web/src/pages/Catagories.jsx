@@ -1,8 +1,15 @@
+import CategoriesHeader from "../components/CategoriesHeader"
+
 export const Catagories = () => {
 
     return (
         <>
-            <h2>Catagories</h2>
+            <div className="nes-container with-title shopTitle">
+            
+            <h1>Categories</h1>
+            <CategoriesHeader />
+        </div>
+
         </>
     )
 }
