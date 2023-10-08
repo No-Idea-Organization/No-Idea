@@ -26,13 +26,16 @@ Fix bugs, add new features such as advance search, and better visual appeasement
 
 </p>
 
-<p>This is a minimalist e-commerce website built with React and CSS. This
-website features a modern and intuitive design, with easy-to-use navigation and a
-simple shopping experience that puts the focus on the products.</p>
+<h2>Credits</h2>
 
-<p>Credits for the design goes to <a href='https://github.com/Abderraouf-Rahmani'>Abderraouf</a></p>
+<h3>Images:</h3>
+» https://www.gamersdecide.com/sites/default/files/best25retro02_1.jpg <br>
+» https://www.wikipedia.org/ <br>
+» https://bestretrotech.com/wp-content/uploads/2020/10/retro-games.jpg <br>
+» https://th.bing.com/th/id/OIP.aiBQppZT_rptDZSTXz9DzAHaF5?pid=ImgDet&rs=1 <br>
+» https://cdn.iconscout.com/icon/premium/png-512-thumb/drowning-man-1640778-1392662.png
 
-👉 Live Demo: <a href='https://minimalist-e-commerce.vercel.app/'>Ecommerce Demo</a>
+👉 Live Demo: 
 
 <h3>Build with:</h3>
 
