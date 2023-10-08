@@ -1,6 +1,30 @@
-<div align='center'><img src='https://user-images.githubusercontent.com/105128267/224688338-8f1f28b7-029b-4ed7-a567-86de0c44ff42.png'/></div>
+
 
 <h2>About the project</h2>
+
+<p>
+## Inspiration
+We first wanted 
+
+## What it does
+It's a web scraper for retro games that allows you to view their rating, year published, type of game, and more.
+
+## How we built it
+We approached building this as a Full-Stack Application where our frontend used ReactJs, backend used Java, and spring boot for our Rest Api.
+
+## Challenges we ran into
+We ran into a lot of time constraints as well as issues dealing with what tasks needed to be completed in order to stay on track. 
+
+## Accomplishments that we're proud of
+Able to work in fast-paced environment, worked to collaborate with developers with different mindsets, and having the majority of the project's aspects work.
+
+## What we learned
+Learned more about ReactJS, how to use git commands, the process of pushing and pulling code, and broadened our understanding of Rest Api. 
+
+## What's next for No Idea's Retro Games Web Scraper 
+Fix bugs, add new features such as advance search, and better visual appeasement. 
+
+</p>
 
 <p>This is a minimalist e-commerce website built with React and CSS. This
 website features a modern and intuitive design, with easy-to-use navigation and a
@@ -12,34 +36,9 @@ simple shopping experience that puts the focus on the products.</p>
 
 <h3>Build with:</h3>
 
-» Vanilla CSS <br>
+» Java <br>
+» Spring Boot <br>
+» Bootstrap <br>
+» Axios <br>
 » React JS
 
-<h2>Screenshots of the Project 📸</h2>
-<br>
-<h3 align='center'>Home Page 🏡</h3>
-
-<div align='center'>
-<img src='https://user-images.githubusercontent.com/105128267/213868640-e3421f0a-bb10-4352-82a1-1bda4df821e9.png'/>
-</div>
-
-<br><br>
-<h3 align='center'>Categories Page 👇</h3>
-
-<div align='center'>
-<img src='https://user-images.githubusercontent.com/105128267/213868668-55c03494-0835-43e0-9cb1-429b9a243a65.png'/>
-
-<br>
-<br>
-<h3 align='center'>Product Page 🎁</h3>
-
-<div align='center'>
-<img src='https://user-images.githubusercontent.com/105128267/213868690-5737cead-a56e-4500-88ff-d182426ce072.png'/>
-
-<br>
-<br>
-<h3 align='center'>Shopping Cart 🛒</h3>
-
-<div align='center'>
-<img src='https://user-images.githubusercontent.com/105128267/213868718-6760d6de-9060-406f-816d-f9b317bb0e0c.png'/>
-</div>
