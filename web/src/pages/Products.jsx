@@ -7,8 +7,12 @@ export const Products = () => {
 
     return (
         <>
+        <main>
+            <h1>React Popups</h1>
+            <button>Open Popup</button>
+        </main>
             <div className="nes-container with-title shopTitle">
-            <h1>NoIdea's Webscraper</h1>
+            <h1>Products</h1>
         </div>
         <br></br>
         <div className="App">
@@ -16,8 +20,12 @@ export const Products = () => {
                 <Card 
                 title='Card Title'
                 imgUrl='https://upload.wikimedia.org/wikipedia/en/e/e7/World_Tennis_Championships.jpg'
-                body='test1'/>
+                body='Rating:'/>
             </div>
+            
+            <br></br>
+            <br></br>
+            <Footer />
         </>
     )
 }

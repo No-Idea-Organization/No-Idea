@@ -85,6 +85,15 @@
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
+@font-face{
+    font-family: myFirstFont;
+    src: url(https://unpkg.com/nes.css@latest/css/nes.min.css);
+    }
+
+h1{
+    font-family: myFirstFont;
+    }
+
 @media (max-width:750px) {
     .grid-container {
         height: 500px;

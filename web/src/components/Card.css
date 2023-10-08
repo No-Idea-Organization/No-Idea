@@ -50,7 +50,7 @@ h3,p{
     transform: scale(1.5);
 }
 
-a{
+.a{
     text-transform: uppercase;
     color: #1B9CFC;
     text-decoration: none;
