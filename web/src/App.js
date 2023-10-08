@@ -5,11 +5,13 @@ import { About } from './pages/About';
 import { Products } from './pages/Products';
 import { Catagories } from './pages/Catagories';
 import { NotFound } from './pages/NotFound';
+import { SearchBar } from './components/SearchBar/SearchBar';
 
 function App() {
   return (
     <>
       <CustomNavbar />
+      <SearchBar />
       <Routes>
         <Route exact path="/" element={<Home />}/>
         <Route path="/about" element={<About />} />
