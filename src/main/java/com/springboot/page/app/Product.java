@@ -2,40 +2,72 @@ package com.springboot.page.app;
 
 public class Product {
 	private String title;
-	private int rating;
+	private String publishDate;
+	private String category;
+	private String subCategory;
+	private String isMultiplayer;
+	private String rating;
+	private String imageUrl;
 	private String description;
-	private int yearPublished;
 	
-	public Product(String title, int rating, String description, int yearPublished) {
+	public Product(String title, String publishDate, String category, String subCategory, String isMultiplayer, String rating, String imageUrl, String description) {
 		super();
 		this.title = title;
+		this.publishDate = publishDate;
+		this.category = category;
+		this.subCategory = subCategory;
+		this.isMultiplayer = isMultiplayer;
 		this.rating = rating;
+		this.imageUrl = imageUrl;
 		this.description = description;
-		this.yearPublished = yearPublished;
 	}
-		
+	
 	public String getTitle() {
 		return title;
 	}
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public int getRating() {
+	public String getPublishDate() {
+		return publishDate;
+	}
+	public void setPublishDate(String publishDate) {
+		this.publishDate = publishDate;
+	}
+	public String getCategory() {
+		return category;
+	}
+	public void setCategory(String category) {
+		this.category = category;
+	}
+	public String getSubCategory() {
+		return subCategory;
+	}
+	public void setSubCategory(String subCategory) {
+		this.subCategory = subCategory;
+	}
+	public String getIsMultiplayer() {
+		return isMultiplayer;
+	}
+	public void setIsMultiplayer(String isMultiplayer) {
+		this.isMultiplayer = isMultiplayer;
+	}
+	public String getRating() {
 		return rating;
 	}
-	public void setRating(int rating) {
+	public void setRating(String rating) {
 		this.rating = rating;
+	}
+	public String getImageUrl() {
+		return imageUrl;
+	}
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
 	}
 	public String getDescription() {
 		return description;
 	}
 	public void setDescription(String description) {
 		this.description = description;
-	}
-	public int getYearPublished() {
-		return yearPublished;
-	}
-	public void setYearPublished(int yearPublished) {
-		this.yearPublished = yearPublished;
 	}
 }
