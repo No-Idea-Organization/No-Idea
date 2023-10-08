@@ -32,6 +32,7 @@
     width: 100%;
     object-fit: cover;
     object-position: 50% 50%;
+    border-style: solid;
 }
 
 .grid-one {
@@ -64,7 +65,9 @@
     margin-top: 100px;
     text-align: center;
     font-size: 40px;
+    font-family: Press Start 2P
 }
+
 
 #img1:hover {
     background-color: rgba(0, 0, 0, 0.5) !important;

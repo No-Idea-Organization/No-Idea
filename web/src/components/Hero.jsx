@@ -1,5 +1,5 @@
 import "./Header.css";
-import Main1 from "../img/header/retro-games.webp";
+import Main1 from "../img/header/retro-games.png";
 import Main2 from "../img/header/RetroGames.jpeg";
 import Main3 from "../img/header/OIP.jpeg";
 import Main4 from "../img/header/help-icon-6.png";
