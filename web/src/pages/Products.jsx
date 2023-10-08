@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+import { getProducts } from '../tools/axios';
 import Footer from "../components/Footer";
 import "nes.css/css/nes.min.css";
 import Card from '../components/Card'
@@ -6,6 +8,13 @@ import Modal from '../components/Modal'
 
 
 export const Products = () => {
+
+    const [startIndex, setStartIndex] = useState(0);
+    const [endIndex, setEndIndex] = useState(50);
+
+    useEffect(() => {
+        getProducts(startIndex, endIndex);
+    }, [startIndex, endIndex])
 
     return (
         <>
