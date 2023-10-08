@@ -1,7 +1,6 @@
+import { useEffect } from 'react';
+
 export const Products = () => {
-
-
-
 
     return (
         <>
