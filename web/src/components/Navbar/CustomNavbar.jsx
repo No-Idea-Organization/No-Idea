@@ -9,9 +9,9 @@ export const CustomNavbar = () => {
                 <Container>
                     <Navbar.Brand>No Idea</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link>Home</Nav.Link>
-                        <Nav.Link>Catagories</Nav.Link>
-                        <Nav.Link>Products</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/catagories">Catagories</Nav.Link>
+                        <Nav.Link href="/products">Products</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

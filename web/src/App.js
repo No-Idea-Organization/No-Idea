@@ -1,13 +1,21 @@
 import { Routes, Route } from 'react-router-dom';
 import { CustomNavbar } from './components/Navbar/CustomNavbar';
 import { Home } from './pages/Home';
+import { About } from './pages/About';
+import { Products } from './pages/Products';
+import { Catagories } from './pages/Catagories';
+import { NotFound } from './pages/NotFound';
 
 function App() {
   return (
     <>
       <CustomNavbar />
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route exact path="/" element={<Home />}/>
+        <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/catagories" element={<Catagories />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
