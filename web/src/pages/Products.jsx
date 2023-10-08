@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import "nes.css/css/nes.min.css";
 import Card from '../components/Card'
-import Modal from 'react-bootstrap/Modal';
+import Modal from '../components/Modal'
 
 
 
@@ -9,7 +9,7 @@ export const Products = () => {
 
     return (
         <>
-        <Modal />
+      
             <div className="nes-container with-title shopTitle">
             <h1>Products</h1>
         </div>

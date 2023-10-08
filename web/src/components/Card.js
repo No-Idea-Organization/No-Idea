@@ -19,14 +19,8 @@ function Card({title,imgUrl,body,desc}) {
                 </div>
             </div>
             
-            <div className="btn">
-            <button onClick={() => setButtonPopup(true)}>View Desc</button>
-        <main>
-        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-                <h3>My popup</h3>
-                <p>This is my button triggered popup</p>
-            </Popup>
-            </main>
+            <div className="desc">
+                <p>{desc}</p>
             </div>
         </div>
     )
