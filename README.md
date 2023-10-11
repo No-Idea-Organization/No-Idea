@@ -10,7 +10,7 @@ We first wanted
 It's a web scraper for retro games that allows you to view their rating, year published, type of game, and more.
 
 ## How we built it
-We approached building this as a Full-Stack Application where our frontend used ReactJs, backend used Java, and spring boot for our Rest Api.
+We approached building this as a Full-Stack Application where our frontend used ReactJs, backend used Java, and spring boot for our REST API.
 
 ## Challenges we ran into
 We ran into a lot of time constraints as well as issues dealing with what tasks needed to be completed in order to stay on track. 
