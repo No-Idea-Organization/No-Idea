@@ -36,7 +36,7 @@ Fix bugs, add new features such as advance search, and better visual appeasement
 » https://cdn.iconscout.com/icon/premium/png-512-thumb/drowning-man-1640778-1392662.png 
 
 
-👉 Live Demo: 
+
 
 <h3>Build with:</h3>
 
